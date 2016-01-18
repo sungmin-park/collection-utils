@@ -4,6 +4,7 @@ build/
 
 #intellij
 .idea/
+*.iml
 
 #vim
 *.swp
