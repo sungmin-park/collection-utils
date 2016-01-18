@@ -1,5 +1,9 @@
 #gradle
 .gradle/
+build/
+
+#intellij
+.idea/
 
 #vim
 *.swp
