@@ -1,0 +1,7 @@
+#python
+venv/
+*.egg-info
+*.pyc
+
+#pycharm
+.idea/
