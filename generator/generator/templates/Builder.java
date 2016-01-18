@@ -1,6 +1,6 @@
 {%- macro args(i) -%}{% for i in range(i) %}{{i != 0 and ', ' or ''}}K k{{i + 1}}, V v{{i + 1}}{% endfor %}{%- endmacro -%}
 {%- macro values(i) -%}{% for i in range(i) %}{{i != 0 and ', ' or ''}}k{{i + 1}}, v{{i + 1}}{% endfor %}{%- endmacro -%}
-package com.collectionUtils;
+package com.github.parksungmin.collectionUtils;
 
 import java.util.HashMap;
 import java.util.Map;

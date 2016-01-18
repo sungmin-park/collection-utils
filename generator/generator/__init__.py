@@ -6,7 +6,7 @@ from os import path
 
 env = Environment(loader=PackageLoader(__name__, 'templates'))
 package_root = path.join(path.dirname(__file__), '..', '..', 'src', 'main',
-                         'java', 'com.collectionUtils')
+                         'java', 'com.github.parksungmin.collectionUtils')
 
 
 def render_template(name, **data):
